@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#wrap{
+    width: 100%;
+    height: 100%;
+}
+
+#gnb{
+    position:fixed;
+    top:0;
+    left:0;
+    width:80px;
+    height:100%;
+    background: #000;
+    z-index: 9999999;
+}
+
+#gnb>ul{
+    position: relative;
+    top:200px;
+    left:0;
+    width: 80px;
+    height: 650px;
+   /*  border:1px solid #fff; */
+}
+
+#gnb>ul>li{
+   
+   /*  border:1px solid #000; */
+    transform: rotate(270deg);
+    width: 80px;
+    height: 90px;
+}
+
+#gnb>ul>li>a{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    color:#fff;
+  
+}
+
+#group_conts{
+    width:100%;
+    height:100%;
+}
+
+#pagepiling{
+    width: 700%;
+    height: 100%;
+    display:flex;
+}
+
+#section1{
+   
+  /*   width: 100%;
+    height: 100%; */
+    background: url("../images/main.jpg") no-repeat ;
+   /*  display: none; */
+}
+
+#section2{
+  /*   width: 100%;
+    height: 100%;  */
+    background: url("../images/profile.jpg") no-repeat ;
+ 
+}
+
+#section3{
+ /*     width: 100%;
+    height: 100%;  */
+    background: url("../images/background.jpg")  no-repeat ;
+  /*  position: relative; */
+
+}
+
+#section4{
+  /*   width: 100%;
+    height: 100%;  */
+    background: url("../images/pris.jpg")  no-repeat ;
+
+  /*  position: relative;
+ */
+}
+
+#section5{
+   /*  width: 100%;
+    height: 100%; */
+    background: url("../images/patio.jpg")  no-repeat ;
+  /*  position: relative; */
+}
+
+
+#section6{
+   /*  width: 100%;
+    height: 100%;  */
+    background: url("../images/app.jpg")  no-repeat ;
+   /* position: relative; */
+}
+
+#section7{
+  /*   width: 100%;
+    height: 100%; */
+    background: url("../images/contact1.jpg")  no-repeat ;
+   /*  display: none; */
+}
+
+
+#btn>div>a>img, #btn2>div>a>img{
+    display:block;
+    margin:20px 0;
+    border:1px solid #ccc;
+    border-radius: 20px;
+} 
+
+#btn{
+    position: absolute;
+    right:20%;
+    top:20%;
+}
+
+#btn2{
+    position: absolute;
+    right:17%;
+    top:25%;
+}
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.css" />
+    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+    <script src="js/jquery.pagepiling.min.js"></script>
+    <title>포토폴리오</title>
+</head>
+<body>
+<div id="wrap">
+
+    <div id="gnb">
+        <ul id="menu">
+            <li data-menuanchor="page1"><a href="#page7">CONTACT</li></a>
+            <li data-menuanchor="page2"><a href="#page6">APP</li></a>
+            <li data-menuanchor="page3"><a href="#page5">WEB3</li></a>
+            <li data-menuanchor="page4"><a href="#page4">WEB2</li></a>
+            <li data-menuanchor="page5"><a href="#page3">WEB1</li></a>
+            <li data-menuanchor="page6"><a href="#page2">PROFILE</li></a>
+            <li data-menuanchor="page7"><a href="#page1">HOME</li></a>
+        </ul>
+    </div> 
+    
+    
+
+    <div id="group_conts">
+    <div id="pagepiling">
+        <div id="section1" class="section">
+
+        </div>
+        <div id="section2" class="section">
+            
+        </div>
+        <div id="section3" class="section">
+            <div id="btn">
+                <div><a href="https://yangheeeon.github.io/Yang_portfolio/tour/" target="_blank"><img src="images/icon11.png" alt=""></a></div>
+                <div><a onclick="window.open('https://yangheeeon.github.io/Yang_portfolio/tour_m/','_blank', 'left=700,top=10,height=950,width=450,scrollbars=yes,status=yes');"><img src="images/icon22.png" alt=""></a></div>
+                <div><a href="https://yangheeeon.github.io/Yang_portfolio/tour_m/PPT.pptx" download><img src="images/icon33.png" alt=""></a></div>
+            </div>
+        </div>
+
+        <div id="section4" class="section">
+            <div id="btn2">
+                <div><a href="https://yangheeeon.github.io/Yang_portfolio/paris/" target="_blank"><img src="images/icon11.png" alt=""></a></div>
+                <div><a href="#"><img src="images/icon33.png" alt=""></a></div>
+            </div>
+        </div>
+
+        <div id="section5" class="section">
+            <div id="btn2">
+                <div><a href="https://yangheeeon.github.io/Yang_portfolio/patio42/" target="_blank"><img src="images/icon11.png" alt=""></a></div>
+                <div><a href="#"><img src="images/icon33.png" alt=""></a></div>
+            </div>
+        </div>
+
+        <div id="section6" class="section">
+            <div id="btn2">
+                <div><a href="#"><img src="images/369.png" alt=""></a></div>
+                <div><a href="#"><img src="images/icon33.png" alt=""></a></div>
+            </div>
+        </div>
+
+        
+        <div id="section7" class="section">
+            
+        </div>
+  
+  
+    </div>
+    </div>
+</div>
+</body>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#pagepiling').pagepiling({
+              direction: 'horizontal',
+              menu: '#menu',
+              anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8'],
+              navigation: {'position': 'right',
+                    'tooltips': ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8']
+              }
+        });
+    });
+</script>
+</html>
